@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SEOA</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fadethis.min.js"></script>
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0px";
+    }
+    </script>
+  </head>
+  <body style="background: white;">
+    <div class="nav">
+      <div id="mmenu" onclick="openNav()"><i class="fas fa-bars"></i></div>
+      <div id="logo"><a href="index.html">박제저장소</a></div>
+      <div id="menu"><a href="index.html">홈</a></div>
+      <div id="menu"><a href="best.html">베스트</a></div>
+      <div id="menu"><a href="upload.html">업로드</a></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div style="background: black; width: 100%; height: 100%; color: black;">
+      </div>
+    </div>
+    <div class="footer" height="500px;">
+      <br><br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br>이 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.
+    </div>
+    <div class="content" style="color: black;">
+      <p>※이용규정<br>1. 하루에 1개 이상의 이메일을 보내지 말것<br>2. 개인정보 수집내용 : IP / 접속OS및 브라우저 정보<br>3. 개인정보 보관은 검토후 확인후 1달뒤 파기됩니다.<br>4. 파기방법 : 영구적으로 파일제거, 종이로 인쇄된경우 분쇄기로 파기.</p>
+      <iframe src="https://mwcontact.000webhostapp.com" id="contact">
+    </div>
+    <script>$(window).fadeThis();</script>
+  </body>
+</html>
