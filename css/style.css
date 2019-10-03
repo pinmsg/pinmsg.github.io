@@ -149,3 +149,24 @@ a {
   height: 50vh;
   border: none;
 }
+div.alert {
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif !important;
+line-height: 1.4;
+}
+
+div.alert a {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #eee;
+    margin-top: 50px;
+}
+
+img.lazy {
+    width: 50vw !important;
+}
+
+img.lazyload {
+    width: 50vw !important;
+}

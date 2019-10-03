@@ -6,20 +6,16 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fadethis.min.js"></script>
     <script>
     function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("mySidenav").style.width = "300px";
     }
 
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0px";
     }
-    $("img.lazy").lazyload({
-      threshold : 300,        //뷰포트에 보이기 300px 전에 미리 로딩
-      effect : "fadeIn"       //효과
-    });
     </script>
   </head>
   <body style="background: white;">
@@ -27,7 +23,7 @@
       <div id="mmenu" onclick="openNav()"><i class="fas fa-bars"></i></div>
       <div id="logo"><a href="index.html">박제저장소</a></div>
       <div id="menu"><a href="index.html">홈</a></div>
-      <div id="menu"><a href="best.html">보기</a></div>
+      <div id="menu"><a href="best.html">베스트</a></div>
       <div id="menu"><a href="upload.html">업로드</a></div>
     </div>
     <div id="mySidenav" class="sidenav">
@@ -39,18 +35,28 @@
       <br><br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br>이 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.
     </div>
     <div class="content" style="color: black;">
-      <a href="https://cdn.discordapp.com/attachments/619807590494502912/619829183669075978/unknown.png"><img src="https://cdn.discordapp.com/attachments/619807590494502912/619829183669075978/unknown.png" style="border-radius: 30px;"></a>
+      <a href="https://cdn.discordapp.com/attachments/619807590494502912/619829183669075978/unknown.png"><img class="lazy" data-original="https://cdn.discordapp.com/attachments/619807590494502912/619829183669075978/unknown.png" style="border-radius: 30px;"></a>
       <p style="color: gray">자기는 남잔데 여자라고 우김</p>
-      <a href="https://cdn.discordapp.com/attachments/620212256294305812/620228418138538014/unknown.png"><img src="https://cdn.discordapp.com/attachments/620212256294305812/620228418138538014/unknown.png" style="border-radius: 30px;"></a>
+      <a href="https://cdn.discordapp.com/attachments/620212256294305812/620228418138538014/unknown.png"><img class="lazy" data-original="https://cdn.discordapp.com/attachments/620212256294305812/620228418138538014/unknown.png" style="border-radius: 30px;"></a>
       <p style="color: gray">신문물을 처음 영접한 사람.png</p>
-      <a href="https://cdn.discordapp.com/attachments/620212256294305812/620231217069031443/unknown.png"><img src="https://cdn.discordapp.com/attachments/620212256294305812/620231217069031443/unknown.png" style="border-radius: 30px;"></a>
+      <a href="https://cdn.discordapp.com/attachments/620212256294305812/620231217069031443/unknown.png"><img class="lazy" data-original="https://cdn.discordapp.com/attachments/620212256294305812/620231217069031443/unknown.png" style="border-radius: 30px;"></a>
       <p style="color: gray">꺼무위키를 넘어 장작위키</p>
-      <a href="https://cdn.discordapp.com/attachments/604692357757141035/620555782567493643/unknown.png"><img src="https://cdn.discordapp.com/attachments/604692357757141035/620555782567493643/unknown.png" style="border-radius: 30px;"></a>
+      <a href="https://cdn.discordapp.com/attachments/604692357757141035/620555782567493643/unknown.png"><img class="lazy" data-original="https://cdn.discordapp.com/attachments/604692357757141035/620555782567493643/unknown.png" style="border-radius: 30px;"></a>
       <p style="color: gray">대단한 친일파</p>
-      <a href="https://cdn.discordapp.com/attachments/603507884029902858/621289951920914457/unknown.png"><img src="https://cdn.discordapp.com/attachments/603507884029902858/621289951920914457/unknown.png" style="border-radius: 30px;"></a>
+      <a href="https://cdn.discordapp.com/attachments/603507884029902858/621289951920914457/unknown.png"><img class="lazy" data-original="https://cdn.discordapp.com/attachments/603507884029902858/621289951920914457/unknown.png" style="border-radius: 30px;"></a>
       <p style="color: gray">네 눈이 너무 많죠^^</p>
-
+      <a href="https://cdn.discordapp.com/attachments/598378147339304964/622275524886134794/unknown.png"><img class="lazy" data-original="https://cdn.discordapp.com/attachments/598378147339304964/622275524886134794/unknown.png" style="border-radius: 30px;"></a>
+      <p style="color: gray">소송 안 걸어서 박제</p>
     </div>
     <script>$(window).fadeThis();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+    <script>
+    $(window).ready(function() {
+      $("img.lazy").lazyload({
+        effect : "fadeIn"
+      });
+    });
+  </script>
   </body>
 </html>
